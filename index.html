@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item-outer image-left-sidebar">
+            <div class="logo-container">
+                <img src="./images/odin-lined.png" class="odin-logo"  alt=""> 
+                <span class="odin-text">ODIN</span>
+            </div>
+            <div class="photo-credit-div">
+                    Photo by <span class="photo-credit">Halie West</span> on <span class="photo-credit">Unsplash</span>
+            </div>
+        </div>
+        <div class="content-side">
+            <form action="#">
+                <p class="description">
+                    This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+                </p>
+                <p class="random-statement">You <em>know</em> you want to.</p>
+                <div class="form-content">
+                    <legend>Let's Do this!</legend>
+                    <fieldset>
+                        <div class="form-element">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Thor">
+                        </div>
+                        <div class="form-element">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Thor">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-element">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="">
+                        </div>
+                        <div class="form-element">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="" pattern="[0-9]{10}" maxlength="10" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-element">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="">
+                        </div>
+                        <div class="form-element">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="">
+                        </div>
+                    </fieldset>
+                </div>
+                
+
+                <button class="account-creation">Create Account</button>
+                <p style="margin: 0px 5%;">Already have an account? <a href="#" class="log-in">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

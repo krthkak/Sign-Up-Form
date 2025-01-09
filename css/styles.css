@@ -1,0 +1,165 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+}
+
+.image-left-sidebar{
+    width: 40%;
+    height: 100%;
+    background-image: url('../images/bgImage.avif');
+    background-size: cover;
+}
+
+.logo-container{
+    position: absolute;
+    width: inherit;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    background-color: black;
+}
+
+
+.odin-logo{
+    position: relative;
+    width: 15%;
+    opacity: 1;
+}
+
+.odin-text{
+    color: white;
+    font-size: 70px;
+    align-self: center;
+    opacity: 1;
+    font-weight: bolder;
+}
+
+.content-side{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10% 0px;
+    box-sizing: border-box;
+}
+
+fieldset{
+    width: inherit;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    border: 0px;
+    flex-wrap: wrap;
+}
+
+legend,.description,.random-statement {
+    margin: 5%;
+}
+
+.form-element{
+    flex: 1 1 50px;
+    width: 75px;
+}
+
+input{
+    border-radius: 4px;
+    height: 25px;
+    margin: 3px 0px;
+    border: 0.2px solid grey;
+    width: max(200px, 50%);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+label{
+    display: block;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+.form-content{
+    border: 0.5px solid #f5f1f1;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: #ffffff;
+}
+
+.account-creation{
+    border-radius: 5px;
+    height: 40px;
+    margin:5%;
+    color: white;
+    background-color: #5a6d48;
+    width: 150px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.log-in{
+    color: #5a6d48;
+    font-weight: bold;
+}
+
+
+.photo-credit{
+    text-decoration: underline;
+    color: white;
+}
+
+.photo-credit-div{
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: inherit;
+}
